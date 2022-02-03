@@ -34,22 +34,6 @@ visibility: hidden;
 
 v3.0.0 1.8mln download
 
-.policy-check:checked + .check-text::before {
-border: none;
-background-image: url(../images/icon-check.svg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-}
-
-.policy-link {
-color: var(--accent-color);
-}
-
-1.47.33, , 1.53.14, 1.57.37 - более сложная вложенность
-
-1.50.04
-
 sass meister
 
 портфолио сказали не делать и модалку в сасс, а что теперь нужно делать?
