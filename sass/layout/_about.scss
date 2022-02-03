@@ -1,0 +1,35 @@
+.section.about {
+  padding-top: 0px;
+}
+
+.about .section-title {
+  margin-bottom: 50px;
+  padding-bottom: 0px;
+}
+
+.about .about__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__image {
+  position: relative;
+}
+
+.about-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  background-color: rgba(47, 48, 58, 0.8);
+  bottom: 0;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--white);
+}
