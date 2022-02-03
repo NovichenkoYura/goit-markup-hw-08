@@ -119,6 +119,13 @@ body {
   margin-top: 0px;
 }
 
+@media screen and (min-width: 1200px) {
+  .section-title {
+    font-size: 36px;
+    line-height: 1.17;
+  }
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -593,6 +600,13 @@ body {
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 1200px) {
+  .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .team-card__name {
   font-weight: 500;
   font-size: 16px;
@@ -604,6 +618,12 @@ body {
 
 .team__title {
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .team__title {
+    margin-bottom: 50px;
+  }
 }
 
 .team-card__role {
