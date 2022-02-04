@@ -716,7 +716,7 @@ body {
 }
 
 .clents-section__title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .clients__link {
@@ -740,6 +740,13 @@ body {
 
 .clients__icon {
   fill: currentColor;
+}
+
+.clients__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: -30px;
 }
 
 @media screen and (min-width: 480px) {
