@@ -13,13 +13,13 @@
   border-radius: 4px;
   border: 1px transparent;
   cursor: pointer;
+  margin-bottom: 15px;
 }
 
 .filter {
   & + & {
-     margin-left: 8px;
+    margin-left: 8px;
   }
- 
 }
 
 .filter.current {
@@ -37,6 +37,11 @@
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
       0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   }
+}
+
+.portfolio {
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .portfolio-item {
@@ -88,12 +93,25 @@
   &:hover .portfolio-img-text {
     transform: translateY(0%);
   }
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(100% / 2 - 30px);
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc(100% / 3 - 30px);
+  }
 }
 
 .filter-list {
-  display: flex;
-  justify-content: center;
-  margin-left: -8px;
+  @media screen and (min-width: 480px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+  // display: flex;
+  // justify-content: center;
+  // margin-left: -8px;
+  margin-bottom: 40px;
 }
 
 .filter {
