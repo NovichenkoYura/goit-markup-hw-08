@@ -12,8 +12,8 @@
 }
 
 .modal {
-  width: 528px;
-  min-height: 581px;
+  width: 450px;
+  min-height: 609px;
   background-color: var(--white);
   border-radius: 4px;
   position: absolute;
@@ -25,6 +25,10 @@
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   padding: 40px;
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+    min-height: 581px;
+  }
 }
 
 .modal-close {
@@ -68,9 +72,13 @@
 .modal-title {
   font-weight: Bold;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
   text-align: center;
   margin-bottom: 12px;
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+    line-height: 1.15;
+  }
 }
 
 .form-field {
@@ -178,8 +186,8 @@
 
 .check-text {
   font-style: Regular;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   color: var(--secondary-text-color);
   display: flex;
   align-items: baseline;
@@ -190,6 +198,10 @@
     border: 2px solid #212121;
     border-radius: 2px;
     margin-right: 8.38px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
   }
 }
 

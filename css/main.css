@@ -140,8 +140,8 @@ body {
 }
 
 .modal {
-  width: 528px;
-  min-height: 581px;
+  width: 450px;
+  min-height: 609px;
   background-color: var(--white);
   border-radius: 4px;
   position: absolute;
@@ -152,6 +152,13 @@ body {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   padding: 40px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    min-height: 581px;
+  }
 }
 
 .modal-close {
@@ -196,9 +203,16 @@ body {
 .modal-title {
   font-weight: Bold;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
   text-align: center;
   margin-bottom: 12px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-title {
+    font-size: 20px;
+    line-height: 1.15;
+  }
 }
 
 .form-field {
@@ -311,8 +325,8 @@ body {
 
 .check-text {
   font-style: Regular;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   color: var(--secondary-text-color);
   display: flex;
   align-items: baseline;
@@ -325,6 +339,13 @@ body {
   border: 2px solid #212121;
   border-radius: 2px;
   margin-right: 8.38px;
+}
+
+@media screen and (min-width: 1200px) {
+  .check-text {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .policy-check:checked + .check-text::before {
@@ -500,13 +521,25 @@ body {
 .hero__title {
   color: var(--white);
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
   max-width: 696px;
+}
+
+@media screen and (min-width: 480px) {
+  .hero__title {
+    font-size: 26px;
+    line-height: 1.61;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 
 .section.about {
