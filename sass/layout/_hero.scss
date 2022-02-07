@@ -15,12 +15,19 @@
   background-position: center;
   background-size: cover;
   flex-grow: 1;
+  // @include tel {
+  //   max-width: 480px;
+  // }
 }
 
 .container-hero {
   display: flex;
   flex-direction: column;
   align-items: center;
+  // width: 100%;
+  // @include tel {
+  //   max-width: 480px;
+  // }
 }
 
 .hero__title {
@@ -37,8 +44,12 @@
     font-size: 26px;
     line-height: 1.61;
   }
+  @media screen and (min-width: 768px) {
+    max-width: 360px;
+  }
   @media screen and (min-width: 1200px) {
     font-size: 44px;
     line-height: 1.36;
+    max-width: 696px;
   }
 }

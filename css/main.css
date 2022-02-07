@@ -535,15 +535,28 @@ body {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .hero__title {
+    max-width: 360px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .hero__title {
     font-size: 44px;
     line-height: 1.36;
+    max-width: 696px;
   }
 }
 
 .section.about {
   padding-top: 0px;
+}
+
+@media screen and (max-width: 1199px) {
+  .section.about {
+    display: none;
+  }
 }
 
 .about .section-title {
