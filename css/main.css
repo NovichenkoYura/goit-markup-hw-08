@@ -531,6 +531,13 @@ body {
   padding-bottom: 48px;
 }
 
+.mob-menu .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .menu-close__btn {
   display: block;
   margin-left: auto;
@@ -565,6 +572,7 @@ body {
   text-align: Left;
   color: #757575;
   display: block;
+  margin-bottom: 64px;
 }
 
 .mobile-social__link {
