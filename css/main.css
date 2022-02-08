@@ -1016,6 +1016,12 @@ body {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-adress {
+    justify-content: flex-start;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer-list {
     margin-bottom: 60px;
@@ -1065,6 +1071,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-social-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
   }
 }
 
@@ -1134,6 +1148,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-field {
+    display: flex;
+    flex-direction: column;
+    margin-left: 93px;
   }
 }
 

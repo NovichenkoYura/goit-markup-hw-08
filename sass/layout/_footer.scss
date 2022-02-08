@@ -53,6 +53,10 @@
     flex-direction: column;
     justify-content: center;
   }
+
+  @media screen and (min-width: 1200px) {
+    justify-content: flex-start;
+  }
 }
 
 .footer-list {
@@ -105,6 +109,11 @@
     flex-direction: column;
     justify-content: center;
     // margin-top: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
   }
 }
 
@@ -176,9 +185,12 @@
     flex-direction: column;
     justify-content: center;
   }
-  //   // display: flex;
-  //   // flex-direction: column;
-  //   // margin-left: 93px;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 93px;
+  }
 }
 
 .footer-field__input {
