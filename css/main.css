@@ -399,6 +399,12 @@ body {
   margin-left: 305px;
 }
 
+@media screen and (max-width: 767px) {
+  .header-adress {
+    display: none;
+  }
+}
+
 .header-adress .adress-link.current {
   color: var(--accent-color);
 }
@@ -479,6 +485,12 @@ body {
   display: flex;
 }
 
+@media screen and (max-width: 767px) {
+  .site-nav.list {
+    display: none;
+  }
+}
+
 .link-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -495,6 +507,16 @@ body {
   border-radius: 2px;
   bottom: 0;
   left: 0;
+}
+
+.open-btn {
+  margin-left: auto;
+}
+
+.open-btn__icon {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .hero {
