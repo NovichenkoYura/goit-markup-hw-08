@@ -519,6 +519,61 @@ body {
   cursor: pointer;
 }
 
+.mob-menu {
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.menu-close__btn {
+  display: block;
+  margin-left: auto;
+  margin-bottom: 8.33px;
+}
+
+.mob-menu__link {
+  font-style: Medium;
+  font-size: 40px;
+  line-height: 1.175;
+  text-align: Left;
+  color: #212121;
+}
+
+.mob-menu__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.mob-connect__tel {
+  font-style: Medium;
+  font-size: 34px;
+  line-height: 1.17;
+  text-align: Left;
+  color: #2196f3;
+  display: block;
+  margin-bottom: 32px;
+}
+
+.mob-connect__mail {
+  font-size: 24px;
+  line-height: 1.166;
+  text-align: Left;
+  color: #757575;
+  display: block;
+}
+
+.mobile-social__link {
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #2196f3;
+}
+
 .hero {
   background: var(--secondary-background-color);
   text-align: center;
