@@ -1127,7 +1127,7 @@ body {
 @media screen and (min-width: 1200px) {
   .footer__wrap {
     display: flex;
-    justify-content: baseline;
+    align-items: baseline;
   }
 }
 
@@ -1146,6 +1146,7 @@ body {
 @media screen and (min-width: 1200px) {
   .footer-tab__wrap {
     display: flex;
+    align-items: baseline;
   }
 }
 
