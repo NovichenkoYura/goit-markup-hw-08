@@ -511,12 +511,23 @@ body {
 
 .open-btn {
   margin-left: auto;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.open-btn:hover .open-btn__icon,
+.open-btn:focus .open-btn__icon {
+  fill: var(--accent-color);
 }
 
 .open-btn__icon {
+  cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
 }
 
 .mob-menu {
@@ -544,6 +555,23 @@ body {
   display: block;
   margin-left: auto;
   margin-bottom: 8.33px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-close__btn:focus .close-btn__icon,
+.menu-close__btn:hover .close-btn__icon {
+  fill: var(--accent-color);
+}
+
+.close-btn__icon {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .mob-menu__link {
