@@ -519,6 +519,12 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 767px) {
+  .open-btn {
+    display: none;
+  }
+}
+
 .open-btn:hover .open-btn__icon,
 .open-btn:focus .open-btn__icon {
   fill: var(--accent-color);
@@ -608,6 +614,7 @@ body {
 .mobile-social__list {
   display: flex;
   flex-direction: row;
+  padding-right: -10px;
 }
 
 .mobile-social__link {
