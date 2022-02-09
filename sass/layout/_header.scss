@@ -43,6 +43,12 @@
   @media screen and (max-width: 767px) {
     display: none;
   }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-left: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }
 
 .header-adress .adress-link.current {
@@ -56,6 +62,12 @@
 .header-address-box {
   display: flex;
   align-items: center;
+}
+
+.header-address-box:not(:last-child) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-bottom: 10px;
+  }
 }
 
 .header-address__icon {
@@ -95,6 +107,11 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
   margin-right: 93px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: block;
+    margin-right: 88px;
+    margin-left: 15px;
+  }
 }
 
 .site-nav .link {
