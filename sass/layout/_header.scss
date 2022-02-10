@@ -59,6 +59,9 @@
     flex-direction: column;
     justify-content: flex-start;
   }
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
+  }
 }
 
 .header-adress .adress-link.current {
@@ -259,7 +262,7 @@
 }
 
 .mob-menu__link {
-  font-style: Medium;
+  font-weight: 700;
   font-size: 40px;
   line-height: 1.175;
   text-align: Left;
@@ -280,7 +283,7 @@
 }
 
 .mob-connect__tel {
-  font-style: Medium;
+  font-weight: 700;
   font-size: 34px;
   line-height: 1.17;
   text-align: Left;
