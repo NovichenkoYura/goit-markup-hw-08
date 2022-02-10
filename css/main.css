@@ -362,7 +362,6 @@ body {
 
 .header {
   margin-bottom: 0px;
-  max-width: 1600px;
   border-bottom: 1px solid #ececec;
   margin-left: auto;
   margin-right: auto;
@@ -396,7 +395,7 @@ body {
 
 .header-adress {
   display: flex;
-  margin-left: 305px;
+  margin-left: auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -407,7 +406,7 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header-adress {
-    margin-left: 84px;
+    margin-left: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -461,6 +460,13 @@ body {
   letter-spacing: 0.03em;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .logo-accent {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+}
+
 .logo {
   color: var(--primary-text-color);
   font-family: Raleway;
@@ -476,7 +482,8 @@ body {
   .logo {
     display: block;
     margin-right: 88px;
-    margin-left: 15px;
+    font-size: 24px;
+    line-height: 1.16;
   }
 }
 
@@ -520,6 +527,14 @@ body {
 
 .link {
   position: relative;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .link-item {
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 1.14;
+  }
 }
 
 .link.current::after {
@@ -773,6 +788,12 @@ body {
 @media screen and (max-width: 1199px) {
   .section.about {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section.about {
+    padding-bottom: 94px;
   }
 }
 
