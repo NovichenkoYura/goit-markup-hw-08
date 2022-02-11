@@ -113,6 +113,7 @@
 }
 
 .portfolio-li {
+  display: flex;
   flex-basis: calc(100% / 9 -30px);
   margin-left: var(--card-set-gap);
   margin-bottom: var(--card-set-gap);
@@ -140,6 +141,13 @@
   flex-direction: column;
   border: 1px solid #eeeeee;
   padding-left: 24px;
+}
+
+.portfolio-short__bigger {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-grow: 1;
+  }
 }
 
 .portfolio-link-wrap {

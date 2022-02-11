@@ -423,8 +423,10 @@ body {
   color: var(--accent-color);
 }
 
-.header-address__item:not(:last-child) {
-  margin-right: 30px;
+@media screen and (min-width: 1200px) {
+  .header-address__item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .header-address-box {
@@ -1550,6 +1552,7 @@ body {
 }
 
 .portfolio-li {
+  display: flex;
   flex-basis: calc(100% / 9 -30px);
   margin-left: var(--card-set-gap);
   margin-bottom: var(--card-set-gap);
@@ -1582,6 +1585,13 @@ body {
   flex-direction: column;
   border: 1px solid #eeeeee;
   padding-left: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-short__bigger {
+    display: flex;
+    flex-grow: 1;
+  }
 }
 
 .portfolio-link-wrap {
