@@ -1542,6 +1542,12 @@ body {
   width: 100%;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+  .portfolio-list {
+    margin-left: -15px;
+  }
+}
+
 .portfolio-li {
   flex-basis: calc(100% / 9 -30px);
   margin-left: var(--card-set-gap);
