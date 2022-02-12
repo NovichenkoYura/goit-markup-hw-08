@@ -496,6 +496,12 @@ body {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .logo {
+    margin-left: 0px;
+  }
+}
+
 .site-nav .link {
   font-style: normal;
   font-weight: 500;
